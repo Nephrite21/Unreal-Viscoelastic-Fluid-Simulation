@@ -1,17 +1,12 @@
-# NiagaraFluid
+# Unreal-Viscoelastic-Fluid-Simulation
+
 
 Fluid simulation(SPH) and water rendering in Unreal Engine 5 Niagara(GPU simulation stage)
 
-Demo : https://www.youtube.com/watch?v=EEXcR8ROdnM
-
-Note : This repository is not associated with "Niagara Fluids"(Epic's official plugin). This is another implementation and uses SPH.
-
-Computational Order : In this implementation, the computational order is O(N^2) because we are using a full search to compute the interaction. If we optimize the nearest neighbor search, this could be reduced to O(NlogN).
-
-![GIF 8-14-2022 4-22-10 PM](https://user-images.githubusercontent.com/26865534/184529081-7178c81c-4608-4519-ba0b-40f59fb07af4.gif)
-
-
 ## References
+・
+https://github.com/mushe/NiagaraFluid
+
 ・Matthias Müller et al, "Particle-based fluid simulation for interactive applications", ACM SIGGRAPH/Eurographics symposium on Computer animation, 2003
 
 https://dl.acm.org/doi/10.5555/846276.846298
